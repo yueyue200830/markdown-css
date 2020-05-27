@@ -1,0 +1,140 @@
+body {
+    font-family: Roboto, "Open Sans", Arial, freesans, sans-serif, "Microsoft YaHei";
+    font-size: 14px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+    padding: 30px;
+}
+
+a:-webkit-any-link {
+    color: rgb(64, 120, 192);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 10px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(44, 63, 81);
+}
+
+
+h1 {
+    font-size: 28px;
+    border: 0;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #cccccc;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    color: #777777;
+    font-size: 14px;
+}
+
+p, blockquote, ul, ol, dl, table, pre {
+    margin: 15px 0;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    color: #777777;
+    background-color: transparent;
+}
+
+blockquote> :first-child {
+    margin-top: 0;
+}
+
+blockquote> :last-child {
+    margin-bottom: 0;
+}
+
+code, tt {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    /* border: 0 none; */
+    background-color: #eee;
+    border-radius: 3px;
+    color: #3e9ff8;
+    font: 14px Consolas, "Liberation Mono", Menlo, "Courier New", Courier, "Microsoft YaHei", monospace;
+}
+
+
+pre code {
+    color: #555;
+    background-color: #f8f8f8 !important;
+    white-space: break-spaces;
+    box-shadow: inset -1px -1px 0 rgba(0, 0, 0, .08);
+}
+
+pre {
+    background-color: #f8f8f8 !important;
+    border: 0;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 0 5px;
+	overflow: auto;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+    color: #3e9ff8;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+table tr th {
+    text-align: center !important;
+    border: 1px solid #cccccc !important;
+}
+
+table tr td {
+    border: 1px solid #cccccc;
+}
+
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin: 0 auto;
+    }
+}
+
+@media print {
+    table, pre {
+        page-break-inside: avoid;
+    }
+
+    pre {
+        word-wrap: break-word;
+    }
+}

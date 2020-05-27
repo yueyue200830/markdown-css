@@ -1,0 +1,84 @@
+/**
+ * Your markdown-themeable-pdf custom styles
+ *
+ * The default file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/templates
+ * The base css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/css
+ * The current highlight.js css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/node_modules/highlight.js/styles
+ */
+html, body {
+    font-size: 20px;
+    color: rgb(44, 63, 81);
+    font-family: Roboto, "Open Sans", Arial, "Microsoft YaHei";
+}
+
+pre code {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(44, 63, 81);
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: bolder;
+    line-height: 2;
+    border-bottom: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 2;
+    border-bottom: 0;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h5, h6 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h1 tt, h1 code {
+    font-size: inherit;
+}
+
+h2 tt, h2 code {
+    font-size: inherit;
+}
+
+h3 tt, h3 code {
+    font-size: inherit;
+}
+
+h4 tt, h4 code {
+    font-size: inherit;
+}
+
+h5 tt, h5 code {
+    font-size: inherit;
+}
+
+h6 tt, h6 code {
+    font-size: inherit;
+}
+
+code {
+    font: 18px Consolas;
+}
