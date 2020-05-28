@@ -16,6 +16,18 @@ This is mostly made for converting to pdf, so not sure for other uses.
 
 You could view example in `example/example-atom.pdf` and `example/example-vscode.pdf`.
 
+The example is copied from `markdown-themeable-pdf` installed in Atom.
+
+### Screenshots
+
+**Atom**
+
+![atom screenshot](screenshots/atom.png)
+
+**VSCode**
+
+![vscode screenshot](screenshots/vscode.png)
+
 ## Usage
 
 ### Atom
@@ -33,3 +45,11 @@ Scroll down to the setting of it, add your css file in `Styles`.
 `markdown-style-vscode` is for including default style(I recommend it).
 
 `markdown-style-common` is for excluding defult style(but there will some error like rendering emoji every large).
+
+## Font
+
+I'm using `Roboto` as main font. You may download and install it from google font.
+
+As for Chinese, I use `微软雅黑`.
+
+Since, I'm using Windows, you may modify font if you use Mac or Linux.

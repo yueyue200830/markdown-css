@@ -1,4 +1,4 @@
-An h1 header`test`
+An h1 header
 ============
 
 Paragraphs are separated by a blank line.
